@@ -1,0 +1,503 @@
+body {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+a {
+	color: #ed171f;
+}
+
+a:visited {
+	color: #660000;
+}
+
+
+#wrapper {
+	background-color: #FFFFFF;
+}
+
+#content_main {
+	position: relative;
+	background: url("../../images/henson/main/jhw_main.jpg") right top;
+	height: 386px;
+}
+* html #content_main {
+	margin-top: -3px;
+}
+
+#navbar_graphic img {
+	margin-bottom: 5px;
+}
+
+#navbar_graphic p {
+	font-size: 12px;
+	color: #fd913e;
+	padding-right: 5px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+}
+
+#main p {
+	font-size: 11px;
+	line-height: 16px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	margin-bottom: 20px;
+	color: #666666;
+}
+#main table {
+	font-size: 11px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #666666;
+}
+#main h6 a:visited{
+	color: #ed171f;
+
+}
+/*.basicsearch {
+	font-size: 11px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #666666;
+}*/
+.boolean{
+	width: 50px;
+}
+
+#video {
+	background: url("../../images/henson/jhw_video_bg.jpg") repeat-x;
+}
+
+/*#video img {
+	float: left;
+	margin-right: 15px;
+}*/
+
+
+#video h2, h3, h4 {
+	display: block;
+	color: #ffffff;
+	margin-left: 5px;
+	padding-left: 5px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	font-weight: normal;
+}
+
+#video h2 {
+	margin-top: 55px;
+	font-size: 18px;
+}
+
+#video h3 {
+	margin-top: 2px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#video h4 {
+	margin-top: 14px;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+#video h4 a {
+	color: #FFFFFF;
+}
+#player {
+	background: url("../../images/henson/player-bkd.gif");
+	background-repeat:no-repeat;
+}
+
+
+#player p {
+	font-size: 11px;
+	line-height: 16px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	margin-bottom: 20px;
+	color: #666666;
+	padding: 0 1em;
+}
+#player ul {
+	margin-top: 5px;
+	list-style:none;
+	display: block;
+	padding: 0 1em 1em 1em;
+}
+#player ul li{
+	font-size: 11px;
+	line-height: 16px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #666666;
+}
+
+#controls {
+	background-color: #e17534;
+	padding: 5px;
+	color: #cccccc;
+	padding-left: 9px;
+	padding-right: 9px;
+	font-size: 11px;
+}
+
+#controls a {
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+#controls #video_prev {
+	float: left;
+}
+
+#controls #video_next {
+	float: right;
+}
+
+#controls #video_return {
+	margin-left: 130px;
+	float: left;
+}
+
+#video_text h1 {
+	margin-left: 0px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	width: auto;
+}
+
+* html #video_text h1 {
+	margin-bottom: 10px;
+}
+
+#video_summary p {
+	font-size: 14px;
+	line-height: 22px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #666666;
+}
+
+#video_credits p {
+	font-size: 11px;
+	line-height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+#video_subjects{
+	margin-bottom: 1em;
+}
+#video_subjects ul{
+	list-style: none;
+}
+#video_subjects ul li {
+	font-size: 11px;
+	line-height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #fd913e;
+}
+
+#video_subjects li a {
+	font-size: 11px;
+	line-height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ed171f;
+}
+#video_subjects h2{
+	margin-bottom: 10px;
+}
+
+#handle p{
+	font-size: 11px;
+	line-height: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	color:#586D03;
+	font-weight: bold;
+	/*background: url("../../images/henson/handle_bar.gif") repeat-x;*/
+	
+}
+
+.new_video {	
+	padding-right: 20px;
+	padding-bottom: 15px;
+}
+
+.new_video h2 {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	float: left;
+	clear: left;
+}
+
+.new_video img {
+	clear: left;
+	float: left;
+	margin-right: 15px;
+}
+
+.video_detail {
+	float: left;
+	margin-left: 5px;
+	width: 490px;
+}
+
+#video_index p {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #333300;
+	margin-bottom: 10px;
+}
+
+#video_index ul {
+	margin-bottom: 10px;
+}
+
+#video_index li {
+	list-style: square;
+	font-size: 12px;
+	line-height: 18px;
+	margin-left: 5px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	list-style-position: inside;
+		color: #FFFFFF;
+}
+
+#video_index li span, #video_index li i {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+		color: #333300;
+}
+
+.video_detail select {
+	font-size:12px;
+	width: 150px;
+	vertical-align: top;
+}
+
+
+#main h6 {
+	margin-top: -5px;
+	font-size: 11px;
+	line-height: 22px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #666666;
+	font-weight: normal;
+}
+
+#main h6 span {
+	color: #fd913e;
+	font-weight: bold;
+}
+
+#search_results .results_bar {
+	position: relative;
+	text-align: center;
+	color: #CCCCCC;
+	font-size: 11px;
+	line-height: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	clear: left;
+}
+
+#search_results .results_bar p {
+	position: absolute;
+	right: 5px;
+}
+
+#search_results .results_bar a{
+	color: #ed171f;
+}
+
+
+#search_results .results_bar a:visited{
+	color: #660000;
+}
+
+#search_results .result {
+	clear: left;
+	float: left;
+	margin-top: 10px;
+	padding-top: 30px;
+	width: 100%;
+}
+
+#search_results .result img {
+	float: left;
+	margin-right: 15px;
+	margin-top: -30px;
+}
+
+#search_results .result h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 11px;
+	line-height: 18px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #666666;
+	font-weight: normal;
+
+}
+
+#search_results .result h2 span {
+	font-weight: bold;
+}
+
+#search_results .result_odd {
+	background: url("../../images/henson/jhw_bar_green.gif") repeat-x;
+}
+
+#search_results .result_odd span {
+	color: #a9c341;
+}
+
+#search_results .result_even {
+	background: url("../../images/henson/jhw_bar_orange.gif") repeat-x;
+}
+
+#search_results .result_even span {
+	color: #fd913e;
+}
+
+#related ul {
+	list-style: none;
+	margin-top: 6px;
+	padding-left: 10px;
+	text-indent: -10px; 
+}
+
+#related li {
+	font-size: 11px;
+	color: #fd913e;
+	margin-bottom: 7px;
+}
+
+#related li a {
+	font-size: 11px;
+	line-height: 15px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #ed171f;
+}
+
+#related li a:visited {
+	color: #660000;
+}
+
+#sidebar img {
+	margin-bottom: 7px;
+}
+
+#sidebar p {
+	color: #ff9032;
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 30px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #fd913e;
+}
+
+
+#footer {
+	background-color: #ffffcb;
+}
+
+#footer h1 {
+	display: block;
+	width: 770px;
+	text-align: center;
+	background: url("../../images/henson/jhw_searchbar_bg.jpg") no-repeat;
+}
+
+#footer h1 input#searchform {
+	margin-bottom: 4px;
+	width: 150px;
+	font-size: 13px;
+	vertical-align: middle;
+	border: 1px solid #7c9abc;
+}
+* html #footer h1 input#searchform {
+	margin-bottom: -4px;
+}
+
+#footer div#copytext {
+	background: url("../../images/henson/jhw_footer_bg.gif") repeat-x;
+	width: 770px;
+}
+#footer .digicoll {
+	background: url("../../images/henson/jhw_footer_dcr.jpg") no-repeat top left;
+	width: 770px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	text-align: center;
+}
+#footer .textline {
+	font-size: 11px;
+	text-align: center;
+	line-height: 20px;
+}
+	
+
+#footer p {
+	margin-left: 15px;
+	padding-top: 10px;
+	color: #999966;
+	font-size: 10px;
+	line-height: 13px;
+}
+
+#quote_video img#quote {
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+#popular_videos {
+	margin-top: 20px;
+	float: right;
+	width: 250px;
+	margin-right: 3px;
+}
+
+#popular_videos ul {
+	margin-top: 5px;
+	list-style:none;
+	display: block;
+}
+
+#popular_videos li {
+	display: block;
+	font-size: 11px;
+	line-height: 15px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #fd913e;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+.subheading {
+	font-size: 13px;
+	font-weight: bold;
+	color: #fd913e;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+}
+.subheading2 {
+	font-size: 12px;
+	color: #fd913e;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+}
+
+#search input, #advancedsearch input{
+	font-size: 12px;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	color: #333300;
+}
+
+.searchalign{
+	vertical-align: middle;
+}
+
+.advancedsearch table tr td{
+	padding: 2em;
+	color: #333300;
+}
+.results_bar span {
+	color: #fd913e;
+	font-weight: bold;
+}

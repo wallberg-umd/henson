@@ -1,0 +1,48 @@
+/*
+navbar_about
+navbar_search
+navbar_index
+navbar_henson
+*/
+
+#navbar li {
+	margin-left: 8px;
+}
+
+#navbar li a {
+	display: block;
+	height: 30px;
+	width: 153px;
+}
+
+#navbar span {
+	display: none;
+}
+
+#navbar #navbar_about a{
+	background: url("../../images/henson/jhw_nav_about.gif") 0 0 no-repeat;
+}
+#navbar #navbar_about a:hover, #navbar #navbar_about_active a {
+	background: url("../../images/henson/jhw_nav_about.gif") 0 -30px;
+}
+
+#navbar #navbar_search a{
+	background: url("../../images/henson/jhw_nav_search.gif") 0 0 no-repeat;
+}
+#navbar #navbar_search a:hover, #navbar #navbar_search_active a {
+	background: url("../../images/henson/jhw_nav_search.gif") 0 -30px;
+}
+
+#navbar #navbar_index a{
+	background: url("../../images/henson/jhw_nav_videoindex.gif") 0 0 no-repeat;
+}
+#navbar #navbar_index a:hover, #navbar #navbar_index_active a {
+	background: url("../../images/henson/jhw_nav_videoindex.gif") 0 -30px;
+}
+
+#navbar #navbar_henson a{
+	background: url("../../images/henson/jhw_nav_jhatum.gif") 0 0 no-repeat;
+}
+#navbar #navbar_henson a:hover, #navbar #navbar_henson_active a {
+	background: url("../../images/henson/jhw_nav_jhatum.gif") 0 -30px;
+}

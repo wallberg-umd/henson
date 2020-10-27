@@ -1,0 +1,251 @@
+* { padding:0; margin:0; font-family: Arial, Helvetica, Verdana, sans-serif;}
+
+img { border: 0px; }
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display: inline-table;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+#wrapper {
+	margin: auto;
+	text-align: left;
+	width: 770px;
+}
+
+#umd_banner {
+	height:50px;
+}
+
+#content {
+	position: relative;
+	width:770px;
+}
+
+#navbar {
+	display: inline; /* IE double margin fix */
+	float: left;
+	width: 188px;
+	height: 650px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#navbar_main {
+	display: inline; /* IE double margin fix */
+	float: left;
+	width: 188px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#navbar ul, #navbar_main ul {
+	margin-top: 15px;
+	list-style: none;
+}
+
+#navbar li, #navbar_main li {
+	display: block;
+	height: 30px;
+}
+
+#navbar_graphic {
+	position: absolute;
+	bottom: 30px;
+	left: 15px;
+	width: 188px;
+	
+}
+
+#content h1 {
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+#main, #content h1 {
+	float: left;
+	margin-left: 10px;
+	width: 537px;
+}
+
+#video {
+	margin-top: 20px;
+	float: left;
+	margin-left: 10px;
+	width: 530px;
+	padding: 5px;
+}
+#player{
+	width:320px;
+	height:278px;
+	float:left;
+	margin-right: 10px;
+}
+/*#player img{
+	display:inline;
+}*/
+
+.player_title {
+	margin-left:56px;
+	margin-top:5px;
+}
+.player_play{
+	margin-top:186px;
+	margin-left:25px;
+}
+
+#controls {
+	float: left;
+	width: 522px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	display: inline;
+}
+* html #controls {
+	width: 530px;
+	w\idth: 522px;
+}
+
+#text {
+	float: left;
+	width: 365px;
+}
+
+#credits{
+	float: left;
+	width: 537px;
+}
+
+#video_text {
+	float: left;
+	width: 320px;
+	margin-right: 20px;	
+}
+
+#pattern_start {
+	width: 537px;
+	height: 19px;
+	background: url("../../images/henson/jhw_doodle_top.gif") no-repeat;
+}
+
+#pattern_end {
+	width: 537px;
+	height: 19px;
+
+	background: url("../../images/henson/jhw_doodle_bottom.gif") no-repeat;
+	margin-bottom: 40px;	
+}
+
+.video_bar {
+	width: 496px;
+	height: 31px;
+		margin-left: 10px;
+	background: url("../../images/henson/jhw_videoindex_rule.gif") no-repeat;
+}
+
+.results_bar_green {
+	float: left;
+	width: 530px;
+	height: 31px;
+	background: url("../../images/henson/jhw_videosearch_bar.gif") no-repeat;
+	display: inline;
+	margin-top: 5px;
+	margin-bottom: -15px;
+}
+
+
+#video_index {
+	width: 515px;
+	background-color: #a8c340;
+	padding: 10px;
+	padding-top: 17px;
+}
+#video_index select{
+	width: 300px;
+}
+#video_index option {
+	padding: 2px 1em;
+}
+* html #video_index {
+	width: 535px;
+	w\idth: 515px;
+}
+#video_detail option{
+	padding: 1em;
+}
+
+#search_results {
+	width: 530px;
+	padding: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+* html #search_results {
+	width: 530px;
+	w\idth: 530px;
+}
+
+
+#related {
+	float: left;
+	margin-top: 10px;
+	width: 190px;
+}
+
+#sidebar {
+	float: right;
+	width: 150px;
+}
+
+#footer {
+	padding-bottom: 25px;
+}
+
+#search {
+	width: 520px;
+	padding: 10px 0 0 10px;
+	background-color: #a8c340;
+}
+
+#search h2{
+	display:inline;
+	padding-left:12px;
+}
+#advancedsearch {
+	width: 520px;
+	padding: 10px 0;
+	border: #a8c340 solid 5px;
+	background-color: #a8c340;
+}
+#advancedsearch h2{
+	padding: 0 0 1em 12px;
+}
+#advancedsearch table{
+	margin: 0 0 1em 0;
+}
+
+#error {
+	display: inline; /* IE double margin fix */
+	position:absolute;
+	top: 10px;
+	right:10px;
+	left: auto;
+	width: 537px;
+	height: 31px;
+		color: #ed171f;
+	font-family: Trebuchet, Trebuchet MS, Arial, Helvetica, Verdana, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	background-image:url(../../images/henson/error_rule.gif);
+	background-repeat:no-repeat;
+}
+

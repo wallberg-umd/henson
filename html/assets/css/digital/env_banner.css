@@ -1,0 +1,24 @@
+/* Environment Banner  */
+.environment-banner {
+    /* height: 30px; */ /* fixed height 30px */
+    padding: 8px 25px;
+    margin: 0;
+}
+.dev-local p.environment-banner {
+    background:#008000;
+    color: #fff;
+}
+.dev-server p.environment-banner {
+    background:#fff100;
+    color: #000;
+}
+.stage-server p.environment-banner {
+    background:#0000ff;
+    color: #fff;
+}
+.prod-server p.environment-banner {
+    display: none!important;
+}
+.henson-env-banner {
+    text-align: left;
+}
